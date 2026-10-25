@@ -4,7 +4,7 @@
 
 ### MCP server review report
 
-Paste an MCP server's tools/list response and the security review comes back \u2014 infra-ops is 9 tools, 1 of them able to send data out and 1 destructive, with run_command accepting a shell string and delete_cluster declaring itself read-only, so the verdict is reject and the policy it implies is written out tool by tool.
+Paste an MCP server's tools/list response and the security review comes back — infra-ops is 9 tools, 1 of them able to send data out and 1 destructive, with run_command accepting a shell string and delete_cluster declaring itself read-only, so the verdict is reject and the policy it implies is written out tool by tool.
 
 `companies/runlayer/runlayer-mcp-review-report/`
 

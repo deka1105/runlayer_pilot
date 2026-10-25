@@ -24,7 +24,7 @@ export const pilots: Pilot[] = [
     title: "MCP server review report",
     company: "runlayer",
     useCase: "UC-1",
-    demo: "Paste an MCP server's tools/list response and the security review comes back \\u2014 infra-ops is 9 tools, 1 of them able to send data out and 1 destructive, with run_command accepting a shell string and delete_cluster declaring itself read-only, so the verdict is reject and the policy it implies is written out tool by tool.",
+    demo: "Paste an MCP server's tools/list response and the security review comes back — infra-ops is 9 tools, 1 of them able to send data out and 1 destructive, with run_command accepting a shell string and delete_cluster declaring itself read-only, so the verdict is reject and the policy it implies is written out tool by tool.",
     built: "2026-10-25",
     tier: "outreach",
     load: () => import("@companies/runlayer/runlayer-mcp-review-report/Pilot"),
